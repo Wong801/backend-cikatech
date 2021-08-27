@@ -7,6 +7,8 @@ be sure to run xampp before running backend
 
 ### Project setup
 ```
+cp .env.example .env
+create "cache" folder inside "bootstrap" folder
 composer install
 php artisan migrate:fresh --seed
 ```
